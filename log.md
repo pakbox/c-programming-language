@@ -3,3 +3,7 @@
 
 # Fri 2022-05-06 10:32:29+0530
 1.2 Variables and Arithmetic Expressions
+
+# Sat 2022-05-07 17:22:13+0530
+1.3 The For Statement
+1.4 Symbolic Constants
