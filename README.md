@@ -43,3 +43,7 @@ Text marked in bold is appplicable to all languages.
 - A #define line defines a *symbolic name* or *symbolic constant* to be a particular string of characters.
 
 - Symbolic constant names are conventionally written in upper case so they can be readily distinguished from lower case variable names.
+
+- By using the symbolic constants, we are assured that nothing in a program depends on the specific numeric value.
+
+- The model of input and output supported by the the standard library is very simple. Text input or output, regardless of where it originates or where it goes to, is dealt with as streams of characters. A text stream is a sequence of characters divided into lines; each line consists of zero or more characters followed by a newline character.
