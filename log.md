@@ -10,3 +10,7 @@
 
 # Sun 2022-05-08 12:25:05+0530
 1.5.1 File Copying
+
+# Tue 2022-05-10 08:07:10+0530
+1.5.2 Character Counting
+1.5.3 Word Counting

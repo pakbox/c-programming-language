@@ -47,3 +47,13 @@ Text marked in bold is appplicable to all languages.
 - By using the symbolic constants, we are assured that nothing in a program depends on the specific numeric value.
 
 - The model of input and output supported by the the standard library is very simple. Text input or output, regardless of where it originates or where it goes to, is dealt with as streams of characters. A text stream is a sequence of characters divided into lines; each line consists of zero or more characters followed by a newline character.
+
+- The operators ++ and -- can be either prefix operators (++nc) or postfix (nc++); these two forms have different values in expression.
+
+- printf uses %f for both float and double; %.0f suppresses printing of the decimal point and the fraction part, which is zero.
+
+- The body of for loop can be empty, if all of the work is done in test and increment parts. But the grammar rules of C require that a for statement have a body. The isolated semicolon, called a null statement is there to satisfy that requirement. It's put on a seperate line to make it visible.
+
+- Programs should act intellingently when give zero-length input. The while and for statements help ensure that programs do reasonable things with boundary conditions.
+
+- A character written between single quotes represents an integer value equal to the numerical value of the character in the machine's character set. This is called a character constant, although it is just another way to write a small integer. So, for example, 'A' is a character constant; in the ASCII character set its value is 65, the internal representation of character A. Of course 'A' is to be preferred over 65: its meaning is obvious, and it is independent of a particular character set. Note carefully that '\n' is a single character, and in expressions is just an integer; on the other hand, "\n" is a string constant that happens to contain only 1 character.
